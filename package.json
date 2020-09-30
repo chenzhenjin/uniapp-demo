@@ -44,7 +44,6 @@
   "dependencies": {
     "@dcloudio/uni-app-plus": "^2.0.0-28920200907001",
     "@dcloudio/uni-h5": "^2.0.0-28920200907001",
-    "@dcloudio/uni-helper-json": "*",
     "@dcloudio/uni-mp-360": "^2.0.0-28920200907001",
     "@dcloudio/uni-mp-alipay": "^2.0.0-28920200907001",
     "@dcloudio/uni-mp-baidu": "^2.0.0-28920200907001",
@@ -59,6 +58,9 @@
     "core-js": "^3.6.5",
     "flyio": "^0.6.2",
     "regenerator-runtime": "^0.12.1",
+    "uni-ajax": "^2.0.1",
+    "uni-simple-router": "^1.5.5",
+    "uview-ui": "^1.7.3",
     "vue": "^2.6.11",
     "vuex": "^3.2.0"
   },
@@ -66,6 +68,7 @@
     "@dcloudio/types": "*",
     "@dcloudio/uni-automator": "^2.0.0-28920200907001",
     "@dcloudio/uni-cli-shared": "^2.0.0-28920200907001",
+    "@dcloudio/uni-helper-json": "^1.0.6",
     "@dcloudio/uni-migration": "^2.0.0-28920200907001",
     "@dcloudio/uni-template-compiler": "^2.0.0-28920200907001",
     "@dcloudio/vue-cli-plugin-hbuilderx": "^2.0.0-28920200907001",
@@ -80,7 +83,9 @@
     "jest": "^25.4.0",
     "mini-types": "*",
     "miniprogram-api-typings": "*",
+    "node-sass": "^4.14.1",
     "postcss-comment": "^2.0.0",
+    "sass-loader": "^10.0.2",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
